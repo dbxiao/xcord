@@ -1,0 +1,35 @@
+.widget-toolbar{
+	@bgcolor:#000;
+	@width:0.48rem;
+	@height:0.48rem;
+	@color:#fff;
+
+	height:@height;
+	background-color: @bgcolor;
+	font-size:0.16rem;
+	line-height: @height;
+
+	.back{
+		float:left;
+		height:@height;
+		width:@width;
+		color:@color;
+		text-align: center;
+		visibility: hidden;
+	}
+
+	.menu{
+		float:right;
+		height:@height;
+		width:@width;
+		color:@color;
+		text-align: center;
+		visibility: hidden;
+	}
+
+	.title{
+		font-size:0.18rem;
+		color:@color;
+		text-align: center;
+	}	
+}

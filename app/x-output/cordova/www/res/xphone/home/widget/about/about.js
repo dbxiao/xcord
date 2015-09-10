@@ -1,0 +1,1 @@
+define("home:widget/about/about.js",function(){});

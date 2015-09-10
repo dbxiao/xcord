@@ -1,0 +1,1 @@
+define("home:page/index/index.js",function(){var a={},c={};c.view={PAGE_INDEX:$("._PAGE_INDEX")},a={init:function(){a.listen()},changeTab:function(E){c.view.PAGE_INDEX.find(".on").removeClass("on"),c.view.PAGE_INDEX.find("."+E).addClass("on"),a.getPicture()},listen:function(){webos.broadcast.listen("WGT_NAV_CHANGE",function(c){a.changeTab(c.nav)})}},a.init()});

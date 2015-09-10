@@ -1,0 +1,1 @@
+define("home:widget/toolbar/toolbar.js",function(){});

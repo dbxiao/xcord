@@ -1,0 +1,15 @@
+body{
+	background: #fff;
+	overflow: hidden;
+
+	.content{
+		.tab{
+			display: none;
+
+			&.on{
+				display: block;
+			}
+		}
+	}
+}
+

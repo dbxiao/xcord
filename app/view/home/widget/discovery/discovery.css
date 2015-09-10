@@ -1,0 +1,19 @@
+.widget-discovery{
+	font-size:14px;
+
+	.dis-item{
+		width:33%;
+		float: left;
+		text-align: center;
+		padding: 25px 0px;
+
+		.icon{
+			font-size: 26px;
+		}
+		span{
+			display: block;
+			font-size:x-small;
+			height: 0.2rem;
+		}
+	}
+}

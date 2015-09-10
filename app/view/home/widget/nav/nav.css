@@ -1,0 +1,42 @@
+.widget-nav{
+	@height : 48px;
+	@background:#ccc;
+
+
+	height: @height;
+	width: 100%;
+	background: @background;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	overflow: hidden;
+
+	.nav{
+		.nav-item{
+			width:33%;
+			height: @height; 
+			padding: 5px 0;
+			float:left;
+			text-align: center;
+			position: relative;
+
+			.icon{
+				font-size: x-large;
+	  			display: block;
+	  			margin-bottom: 1px;
+			}
+			.text{
+				display: block;
+				display: block;
+	  			font-size: xx-small;
+			}
+
+			&.on{
+				.icon,
+				.text{
+					color: #4D3990;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.page-camera{
+	font-size:14px;
+
+	.content{
+		text-align: center;
+
+		button{
+			margin: 10px 0;
+		}
+	}
+}

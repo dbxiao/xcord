@@ -1,0 +1,22 @@
+{
+    "name": "xphone",
+    "version": "1.0.1",
+    "author": "dbxiao",
+    "private": true,
+    "description": "A hybrid developer frame",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "bugs": {
+        "url": "https://github.com/dbxiao/xphone/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dbxiao/xphone.git"
+    },
+    "homepage": "https://github.com/dbxiao/xphone",
+    "dependencies": {
+        "ejs": "^2.3.2",
+        "express": "~4.2.0"
+    }
+}

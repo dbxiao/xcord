@@ -1,0 +1,12 @@
+body{
+	background: #fff;
+
+	.content{
+		width:100%;
+		height:600px;
+
+		#allmap{
+			height: 100%;
+		}
+	}
+}
